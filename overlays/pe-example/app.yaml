@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: &app-name hola-mundio
+  name: &app-name hello-world
 spec:
   ports:
     - port: 8080
