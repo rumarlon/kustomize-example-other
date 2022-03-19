@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: &app-name hola-mundio
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        env: staging

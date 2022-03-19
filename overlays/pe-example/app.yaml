@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: &app-name hola-mundio
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+    - port: 22  # egad!
+      targetPort: 8080
